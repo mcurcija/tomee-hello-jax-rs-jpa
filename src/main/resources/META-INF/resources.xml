@@ -1,0 +1,13 @@
+<!-- hsqldb  -->
+
+<resources>
+
+	<Resource id="HelloDS" type="javax.sql.DataSource">
+		JdbcDriver = org.hsqldb.jdbcDriver
+		JdbcUrl = jdbc:hsqldb:mem:helloDB
+		userName = sa
+		password = 
+		jtaManaged = true
+	</Resource>
+
+</resources>

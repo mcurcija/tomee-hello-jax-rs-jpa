@@ -1,0 +1,16 @@
+plugins {
+    id 'war' 
+    id 'eclipse' 
+}
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+	compile 'org.apache.logging.log4j:log4j-slf4j-impl:2.11.1'
+	providedCompile 'javax:javaee-api:7.0'
+//	providedCompile 'javax.ws.rs:javax.ws.rs-api:2.0.1'
+    testImplementation 'junit:junit:4.12'
+}	
+
